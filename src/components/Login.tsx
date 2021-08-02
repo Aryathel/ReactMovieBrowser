@@ -27,11 +27,10 @@ const Login: React.FC = () => {
     try {
       const requestToken = await API.getRequestToken();
       const sessionId = await API.authenticate(requestToken, username, password);
-      console.log(sessionId);
 
       setUser({ sessionId: sessionId.session_id, username });
 
-      navigate('/');
+      navigate('/moviebrowser/');
     } catch (error) {
       setError(true);
     }

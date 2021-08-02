@@ -13,7 +13,7 @@ type Props = {
 const BreadCrumb: React.FC<Props> = ({ movieTitle }) => (
   <Wrapper>
     <Content>
-      <Link to='/'>
+      <Link to='/moviebrowser/'>
         <span>Home</span>
       </Link>
       <span>|</span>

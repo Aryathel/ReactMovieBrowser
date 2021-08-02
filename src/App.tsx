@@ -23,10 +23,10 @@ const App: React.FC = () => (
     <UserProvider>
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/:movieId' element={<Movie />} />
-        <Route path='/*' element={<NotFound />} />
+        <Route path='/moviebrowser/' element={<Home />} />
+        <Route path='/moviebrowser/login' element={<Login />} />
+        <Route path='/moviebrowser/:movieId' element={<Movie />} />
+        <Route path='/moviebrowser/*' element={<NotFound />} />
       </Routes>
       <GlobalStyle />
     </UserProvider>

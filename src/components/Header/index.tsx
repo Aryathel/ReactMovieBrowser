@@ -18,14 +18,14 @@ const Header: React.FC = () => {
   return (
     <Wrapper>
       <Content>
-        <Link to='/'>
+        <Link to='/moviebrowser/'>
           <LogoImg src={RMDBLogo} alt='rmbd logo' />
         </Link>
         {
           user ? (
             <span className='loggedin'>Logged In As: {user.username}</span>
           ) : (
-            <Link to='/login'>
+            <Link to='/moviebrowser/login'>
               <span className='login'>Log In</span>
             </Link>
           )
