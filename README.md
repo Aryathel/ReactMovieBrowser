@@ -4,7 +4,6 @@ This is a simple movie browsing website that I have been putting together in my 
 
 ## Planned Additions:
 -[ ] The ability to view a page for individual people.
--[ ]
 
 ## DISCLAIMER
 
